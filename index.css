@@ -51,7 +51,7 @@ body {
     width: 100%;
     display: flex;
     gap: 1em;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
 }
 
@@ -113,6 +113,12 @@ input:focus {
 .results {
     display: flex;
     flex-direction: column;
+}
+
+.valid,
+.required {
+    display: none;
+    color: red;
 }
 
 @media (min-width: 450px){
